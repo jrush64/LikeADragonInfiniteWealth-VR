@@ -1,0 +1,27 @@
+# Build intermediates
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+builds/obj/
+builds/experimental/
+builds/research/
+
+# Runtime output
+logs/
+*.log
+
+# Live code dumps from tools/ (game code; never commit)
+*.bin
+
+# Python
+__pycache__/
+
+# Editor/OS files
+*.user
+*.suo
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini

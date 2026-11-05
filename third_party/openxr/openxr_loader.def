@@ -1,0 +1,24 @@
+; Import definitions for the Khronos OpenXR loader (openxr_loader.dll, x64).
+; scripts\build_proxy.bat turns this into an import library with lib.exe, so no prebuilt
+; .lib has to be vendored. Only the entry points the research proxy calls are listed.
+LIBRARY openxr_loader
+EXPORTS
+    xrAcquireSwapchainImage
+    xrBeginFrame
+    xrBeginSession
+    xrCreateInstance
+    xrCreateReferenceSpace
+    xrCreateSession
+    xrCreateSwapchain
+    xrEndFrame
+    xrEndSession
+    xrEnumerateSwapchainFormats
+    xrEnumerateSwapchainImages
+    xrEnumerateViewConfigurationViews
+    xrGetInstanceProcAddr
+    xrGetInstanceProperties
+    xrGetSystem
+    xrPollEvent
+    xrReleaseSwapchainImage
+    xrWaitFrame
+    xrWaitSwapchainImage
